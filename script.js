@@ -9,9 +9,9 @@ document.addEventListener("DOMContentLoaded", function () {
     "Are you really really sure???",
     "Think again?",
     "Don't believe in second chances?",
-    "I'll be sad 😢",
-    "I'll be more sad Meri moto😢",
-    "I'll be very very  sad Meri Moto😢",
+    "I'll be sad Babu😢",
+    "I'll be more sad Meri Sona😢",
+    "I'll be very sad Meri Jaan😢",
     "I'll be very very sad 😢",
     "Maybe we can talk about it?",
     "I am not going to ask again! 😡",
@@ -19,16 +19,17 @@ document.addEventListener("DOMContentLoaded", function () {
     "You are now just being mean! 😭",
     "Why are you doing this to me? 😭",
     "Please give me a chance! 🙏",
-    "Please Moto  🥰",
+    "Please Babu Meri Sona 🥰",
     "I'll be very Sad  na 😢",
-    "Man Jao Na moto"
+    "Man Jao Na Babu Pilij Babu",
   ];
 
   let questionIndex = 0;
 
   yesButton.addEventListener("click", function () {
-    responseMessage.innerText = `toh kab le jaa rhi hai fir ❣️`;
-    responseMessage.style.color = "#eb134d";
+    responseMessage.innerText = `😘💖,I Love youuuuu Babu 😘😘 Meri sona❤️ Babu ${this.style.breakAfter}
+      ❤💘😍🥰😘Meri Piyari Babu🥰❤💘🧡🌹🌹`;
+    responseMessage.style.color = "#14199b";
     noButton.style.display = "none";
   });
 
